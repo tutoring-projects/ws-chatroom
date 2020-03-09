@@ -1,0 +1,23 @@
+{
+  "name": "ws-chatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.26.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4",
+    "uuid": "^7.0.2",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
